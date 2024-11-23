@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{ font-family: "Roboto", sans-serif;}
+a{text-decoration:none;color:#dc2419}
+a:hover{text-decoration:underline;}
+.gradient-custom-2 {background:url('../images/plan-bg.jpg');background-repeat:no-repeat;background-size: contain;padding:400px 60px 40px 60px;flex-wrap: wrap;text-align: center;border-right: solid 1px #bad0fc;}
+.carousel-indicators { margin-bottom: 0; bottom: -30px;}
+.carousel-indicators [data-bs-target]{background-color: #2e2626;}
+.text-slider h2 { font-size: 30px;font-weight: 700; color: #424255;}
+.text-slider p{font-size:20px;color:#000}
+.card_custom{overflow:hidden; border-color:#bad0fc}
+.user_btn {margin-top:50px;text-align:left}
+.user_btn a {display: block; text-decoration: none;color: #000;background: #dfd5ff; margin-bottom: 20px;
+ padding: 12px 20px; border-radius: 7px; font-weight:400; box-shadow: 0 0 15px 3px #e1e1e1;position:relative}
+.user_btn a:hover {background: #dc2419;}
+.user_btn a:last-child{margin-bottom:0}
+.user_btn a .fa-arrow-right-long {position: absolute; right: 10px; top: 35%;}
+.user_login{margin-top:30px}
+.heading{font-size:20px;color:#012e38;font-weight:500;margin-bottom:30px}
+.btn_custom{display: block; text-decoration: none;color: #fff;background: #2c1e5a; margin-bottom: 20px;
+ padding: 12px 20px; border-radius: 7px;font-weight:400; width:100%;border:none}
+.btn_custom:hover {background: #dc2419;color:#fff;text-decoration:none}
+.btn_custom.active {background: #dc2419;color:#fff;text-decoration:none}
+.form-label{font-size:14px;font-weight:500;}
+.app-main__inner .form-label{font-size:16px;font-weight:400;color: #012e38}
+.form-control{border-radius: 5px;height: 50px;box-shadow: 0 0 1px 1px #dfdfdf;}
+.form-control:focus {border-color: #de231c;box-shadow: 0 0 1px 1px #dfdfdf;}
+.app-header__logo .logo-src{width:190px}
+.app-header .app-header__content .header-menu .nav-link i{ color: #5a5a5a;opacity: 1;font-size: 20px;}
+.app-header-right .nav-link{padding:0 8px}
+.metismenu li {padding-bottom: 15px;}
+.metismenu li a{color:#7b9297;}
+.app-theme-white .app-sidebar {background: #012e38;}
+.vertical-nav-menu i.metismenu-icon{opacity:0.8}
+.vertical-nav-menu li a:hover{color:#000}
+.app-header__logo{padding-right:0}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after,.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after{background-color: #27156b;}
+select.form-control{appearance: auto;}
+.reqid {color: #dc231e;}
+.input-group button {background: transparent; color: #939393; border-color: #dee2e6; box-shadow: 0 0 1px 1px #dfdfdf;}
+.input-group button:hover {background: #26176c; border-color: #26176c;}
+.alert-success{font-size:18px}
+.alert-dismissible .close{padding: 0.75rem 1.25rem;right:0}
+.card-title {font-size: 20px;text-transform: capitalize;font-weight: 400;}
+.sub_btn{display: block; text-decoration: none;color: #fff;background: #004e66; margin-bottom:0px;
+ padding: 12px 20px; border-radius:50px;font-weight:400;font-size:16px; width:100%;border:none;cursor:pointer}
+.sub_btn:hover{background: #25156d;}
+.sub_btn_border{display: block; text-decoration: none;background:transparent; margin-bottom:0px; padding: 10px 20px; border-radius:10px;font-weight:500;font-size:16px; width:100%;border:2px #004e66 dashed;cursor:pointer;color:#004e66}
+.sub_btn_border:hover{background: #004e66;color:#fff}
+.customer_records_dynamic .remove { border-top: solid 2px #ddd; margin-top: 40px!important; padding-top: 20px;}
+.main-box {background-color:#fff; padding-bottom:20px;  }
+.green-light {background-color:#d9f8ec; padding:4px 10px; display: flex; justify-content: space-between;}
+.left-text em {color:#001f29; font-weight:300; font-style:normal; line-height: 33px;}
+.left-text span {color:#001f29; font-weight:700; line-height: 33px;}
+.section-one h5 {font-weight:300; font-weight:600; font-size:15px; color:#001f29;}
+.text-desti {width:100%; display: flex; justify-content: flex-start; color:#001f29; font-size:15px;}
+.text-desti p { margin: 0 0 5px 0; color: #a7a7a7; }
+.text-desti .dest {padding-left:150px;}
+.text-bom-ltn {font-weight:600; font-size:18px; color:#000;}
+.text-bom-ltn img {padding:0 10px;}
+.line-desti { background-color: #f8f8f8; width: 1px; height: 100%; text-align: center; margin: 0 auto;}
+.sector-one {border-right:1px solid #000;}
+.bg-gray {background-color:#f9f9f9; padding:15px;}
+.text-area {padding-bottom:10px;}
+.text-area	p {color:#7e7e7e; font-size:15px; margin:0px;}
+.text-area	span {color:#000; font-weight:500;}
+.text-sector { line-height: 120px;}.tab-content { width: 100%;}
+.tab-new {display: flex; justify-content: space-between;}
+.tab-new .nav {padding:0px!important; width: 75%;gap: 15px;}
+.tab-new .nav-pills .nav-link.active, .nav-pills .nav-link.active:hover { color: #004e66!important;}
+.tab-new .nav-pills .nav-link.active, .nav-pills .nav-link {color: #004e66; padding: 5px 51px; border: solid 1px #004e66;}
+.tab-new .nav-pills .nav-link.active {background: #004e66;border: 1px solid #004e66;border-radius: 5px;
+color: #fff!important;}
+.btn_custom-new { width: auto; padding: 7px 20px;}
+.request {display: flex; justify-content: space-between; width:100%; border-bottom:1px solid #fff; }
+.request p {margin:0px; font-size:16px; font-weight:300;}
+.request span { font-weight:500;}
+.aircraft {width:100%;  border-bottom:1px solid #d6d8db; margin-left: -1px;}
+.aircraft p {margin:0px; font-size:14px; padding-bottom:8px;}
+.aircraft span { font-weight:500;}
+p.heading-one { font-weight:500; font-size:17px; padding-bottom:10px; display:block; width:100%;}
+.table thead th { font-weight: 400;}
+.sector-bold {font-weight:600;color:#004e66;}
+.top-right {padding-right:25px;}
+.test {display: none;}
+.seemore { display:block; text-align:center; text-decoration:underline!important;}
+.moretext { display: none;}
+.boking-text  {margin:0px; padding:0px;}
+.boking-text ul {list-style:none; padding: 0;margin-bottom: 10px;}
+.boking-text li { display: block; padding: 5px 10px; background: #f7f7f7; border-radius: 5px;}
+.boking-text li span.text-left { }
+.boking-text li p { margin:0px; display: flex; justify-content: space-between; color:#fff;}
+.boking-text li p.last {border-bottom:none;}
+.boking-text li span.left-text { color: #2c1e5a; font-weight: 500;}
+.boking-text li span.right-text { color: #4e4e4e; font-weight:500;}
+.booking-bg ul li {background-color:#fff;}
+.border_bottom {border-bottom: solid 1px #d3d3d3;padding-bottom: 10px;}
+.border_bottom:last-child{border-bottom:0}
+@media (min-width: 768px) {
+.gradient-form {height: 100vh !important;}
+}
+@media(max-width:980px){
+.app-header__menu .nav-link .nav-link-icon{opacity:1;font-size: 24px;}
+.app-header .app-header__logo{display:flex}
+.app-header .header__pane{display:none}
+}
+@media(max-width:767px){
+	html,body{height:100%}
+	.gradient-custom-2{padding:60px 20px 0px 20px;flex-direction: column-reverse;background-size: 100%!important;background: url(../images/plan-bg-mobile.jpg);border:0;margin-bottom: 50px;}
+	.first-screen{align-items:start!important}
+	.text-slider h2{font-size:20px}
+	.text-slider p {font-size: 16px;}
+	.user_btn{margin-top:50px}
+	#demo {margin-top: 1rem!important; margin-bottom: 50px}
+	.carousel-indicators{bottom:-15px}
+	.gradient-form{background:#fff!important}
+	.gradient-form .col-xl-10{padding:0}
+	.card_custom{border-color: transparent;}
+	.heading{font-size: 18px;text-align:center}
+	.alert-success {font-size: 16px;}
+	.sub_btn{border-radius:8px}
+	.sub_btn_border{border:none;text-align: right;}
+	.sub_btn_border:hover {background: transparent;color: #004e66;}
+	.card-title {font-weight: 500; color: #012e38;}
+	.effortless-flight {display:none!important;}
+	.card-center {vertical-align: middle;height: 100vh;position: relative;top: 20%;bottom: 20%;}
+	.d-none {display:none!important;}
+	.tab-new { justify-content: center;}
+	.tab-new .nav-pills .nav-link.active, .nav-pills .nav-link {padding: 5px 20px;}
+	.text-bom-ltn {font-size: 12px;}
+	.btn-new {border-radius: 8px;height: 30px; font-size: 14px;}
+	.left-text span {display: block;line-height: 18px;}
+	.left-text em {line-height: 10px; margin-top: 10px;}
+	.text-desti .dest {padding-left: 110px;}	
+	.mobile-side {padding-left:0px; padding-right:0px;}
+	.text-sector {margin:15px 0px 20px 0;}
+	.green-light { padding: 4px 10px;}
+	.p-right {width: 50%; display:inline-block;}
+	.text-sector { line-height: 0;}
+	.top-right {padding-right:0px;}
+	.ar-text span {line-height:30px;}
+	.edit-btn {margin-top: 13px;}
+	.tab-new-two .nav-pills .nav-link.active, .nav-pills .nav-link { padding: 5px 17px 5px 18px; margin-bottom: 10px;}
+	.request { display: block; border-bottom: 1px solid #fff;}
+	.right-div {margin:10px 0;}
+	.table thead th { white-space: nowrap;}
+	.tab-new .nav{width:100%;justify-content: center;}	
+}
+.table-div
+{
+	display: block;
+}
+
+
